@@ -72,11 +72,7 @@ export default function Index() {
     </View>
     </>
 
-<<<<<<< HEAD
-    {/* Delivery Options */}
-=======
      {/* Delivery Options */}
->>>>>>> a459ebf7e4bb6db80a247e3b22b1e0104075f5e0
       <View style={styles.deliveryOptionsContainer}>
         <View style={styles.deliveryTabs}>
           <TouchableOpacity style={styles.activeTab}>
@@ -226,4 +222,89 @@ const styles = StyleSheet.create({
     fontSize: 15,
     color: '#545454',
   },
+
+   deliveryOptionsContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 20,
+    marginBottom: 12,
+  },
+  deliveryTabs: {
+    flexDirection: 'row',
+    backgroundColor: '#F6F6F6',
+    borderRadius: 25,
+    padding: 4,
+  },
+  activeTab: {
+    backgroundColor: '#fff',
+    paddingVertical: 8,
+    paddingHorizontal: 24,
+    borderRadius: 20,
+  },
+  activeTabText: {
+    fontSize: 15,
+    fontWeight: '600',
+    color: '#000',
+  },
+  inactiveTab: {
+    paddingVertical: 8,
+    paddingHorizontal: 24,
+  },
+  inactiveTabText: {
+    fontSize: 15,
+    color: '#6B6B6B',
+  },
+  groupOrderButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  groupOrderIcon: {
+    fontSize: 16,
+    marginRight: 6,
+  },
+  groupOrderText: {
+    fontSize: 15,
+    fontWeight: '500',
+    color: '#000',
+  },
+  feeCardsContainer: {
+    flexDirection: 'row',
+    paddingHorizontal: 20,
+    marginBottom: 16,
+    gap: 12,
+  },
+  feeCard: {
+    flex: 1,
+    backgroundColor: '#F6F6F6',
+    borderRadius: 8,
+    padding: 12,
+  },
+  feeCardTitle: {
+    fontSize: 13,
+    fontWeight: '600',
+    color: '#000',
+    marginBottom: 6,
+    textAlign: 'center',
+  },
+  feeCardLink: {
+    fontSize: 13,
+    color: '#545454',
+    textAlign: 'center',
+  },
+  closedText: {
+    fontSize: 15,
+    fontWeight: '600',
+    color: '#000',
+    marginBottom: 4,
+    textAlign: 'center',
+    textAlignVertical: 'center',
+  },
+  deliveryTimeText: {
+    fontSize: 13,
+    color: '#545454',
+    textAlign: 'center',
+    textAlignVertical: 'center',
+  },
+
 });
