@@ -72,7 +72,11 @@ export default function Index() {
     </View>
     </>
 
+<<<<<<< HEAD
     {/* Delivery Options */}
+=======
+     {/* Delivery Options */}
+>>>>>>> a459ebf7e4bb6db80a247e3b22b1e0104075f5e0
       <View style={styles.deliveryOptionsContainer}>
         <View style={styles.deliveryTabs}>
           <TouchableOpacity style={styles.activeTab}>
